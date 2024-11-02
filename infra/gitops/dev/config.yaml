@@ -1,0 +1,7 @@
+kind: ConfigMap
+apiVersion: v1
+metadata:
+  name: node-api-config
+  namespace: dev
+data:
+  NODE_ENV: "development"
